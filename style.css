@@ -1,0 +1,672 @@
+*{margin: 0;
+padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+.bar{
+    background-color:rgb(121, 167, 52) ;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+width: 30%;
+height: 30%;
+border-radius: 50%;
+}
+.logo h1{
+    color:white;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 
+    Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow',
+      Arial, sans-serif, Courier, system-ui, 
+      -apple-system, BlinkMacSystemFont, 'Segoe UI',
+       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+       'Helvetica Neue', sans-serif;
+    font-style: oblique; 
+}
+.log{
+    text-align: center;
+    margin-right: 3rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 15px;
+}
+ul{
+    font-size:medium;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    transition: 0.4s;
+}
+ul  :hover{
+   transform: scale(1.2);
+}
+ul li{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li a{
+color: white;
+text-decoration:none;
+}
+a:hover{
+ color: lightgreen;
+}
+a:active{
+   color: greenyellow;
+}
+.bar input{
+   /* background-image: url(fruits/searchicon.png);
+    background-size:25px ;
+    background-repeat: no-repeat;
+    background-position:left; */
+    width: 20%;
+    height: 10%;
+    padding: 10px 20px 10px 30px;
+}
+.nav-bar{
+    background-size: cover;
+    background-color: aliceblue;
+    background-image: url(fruits/fruithome3.jpg);
+
+}
+.nav-box{
+    background-color: rgba(43, 180, 71, 0.164);
+}
+.nav-box h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-smooth: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(42, 78, 42);
+    text-align: center;
+}
+.nav-info p{
+    margin-top: 30px;
+    padding: 30px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, 
+     sans-serif;
+     text-align: center;
+     color: white;
+}
+.slide{
+    padding: 0;
+    margin-bottom: 0;
+    background-color: rgba(121, 167, 52, 0.6)  ;
+    color: white;
+    text-align: center;
+}
+.order{
+    background-color: rgb(121, 167, 52) ;
+    color: white;
+    font-weight:100%;
+    font-size: 2.5rem;
+    margin: 4rem 2rem;
+    padding: 0.5rem;
+ border-radius: 2rem;
+    text-align: center;
+}
+.grid-img img{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;  
+}
+.grid-img{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    justify-content: center;
+    margin-bottom:30px;
+    column-gap: 4rem;
+}
+
+.head_bar{
+background-color:rgb(121, 167, 52) ;
+}
+.head-box img{
+width: 200px;
+height: 200px;
+margin-bottom: 1rem;
+transition:0.6s;
+}
+.head-box img:hover{
+   transform: scale(1.2);
+}
+.head-box {
+    margin-top: 20px;
+    background-color:white;
+    display: grid;
+grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    column-gap: 7em;
+    row-gap: 3px;
+    justify-content:center ;
+    padding: 100px 5px;
+}
+.name{
+    color:rgb(78, 110, 28) ;
+    font-size: larger;
+}
+.name button{
+    background-color:rgb(121, 167, 52) ;
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    transition: transform 0.4s;
+}
+.name button:hover{
+   transform: scale(1.2);
+}
+.order2 {
+    background-color:rgba(121, 167, 52, 0) ;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(121, 167, 52)  ;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+.foot{
+    background-color:rgb(242, 252, 227) ;
+    margin-top: 1rem; 
+   
+}
+.foot-bar h1{
+color:rgb(17, 22, 8) ;
+font-size: xx-large;
+font-weight: 500rem;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.foot-box{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 5rem;
+}
+.foot h2{
+    color:rgb(9, 43, 9);
+    font-weight:300rem;
+    font-size: 30px;
+}
+.foot p{
+    color: rgb(27, 17, 17);
+    display: flex;
+    flex-direction: column;
+}
+.foot p a{
+    color:rgb(48, 35, 35) ;
+    font-weight: lighter;
+ }
+ .copyright p{ 
+    color:black;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    padding-bottom: 2rem;
+ }
+ .navbar{
+    background-size: cover;
+    background-image: url(fruits/fruithome9.jpg);
+    padding: 3% 3%;
+   margin: 1rem 0;
+   animation-name: animation;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+ }
+ @keyframes animation{
+    0%{background-image: url(fruits/fruithome9.jpg);}
+    25%{background-image: url(fruits/fruithome7.jpg);}
+    50%{background-image: url(fruits/fruithome6.png);}
+    75%{background-image: url(fruits/fruithome8.webp);}
+    100%{background-image: url(fruits/fruithome5.jpg);}
+
+ }
+
+ .bar0{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem 20px;
+    padding: 20px 10px;
+    column-gap: 2rem;
+
+ }
+ .bar1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 19, 19,0.1);
+    align-items: center;
+    padding: 3rem  2rem;
+ }
+ .bar1 h1{
+    font-size: 3rem;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: rem;
+    text-align: center;
+    margin-bottom:1.5rem ;
+ }
+ .bar1 p{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+ }
+ .bar1 button{
+    background-color: rgba(19, 17, 17, 0.8);
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 15px 15px;
+ }
+ .but{
+    margin-top: 3rem;
+    text-align: center;
+ }
+ .but button{
+   margin-bottom: 3rem;
+   border-radius: 2rem;
+   padding: 1.2rem;
+   font-size: 1.3rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+ }
+ .but a{
+   color: white;
+   list-style: none;
+   text-decoration:none;
+ }
+ .but a:hover{
+   color: rgb(218, 196, 196);
+ }
+ .but1 button{
+   margin-bottom: 2rem;
+   padding: 1rem 1rem;
+   font-size: 1.2rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   background-color: rgba(39, 77, 44, 0.8);
+   border-radius: 2rem;
+   
+ }
+ .but1 a{
+   color: white;
+   text-decoration: none;
+   font-size:1.4rem;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ .bar2{
+    width: 100%;
+    height: 60%;
+ }
+ .bar2 h1{
+    color:rgb(121, 167, 52) ;
+    font-size:1.7rem ;
+    font-weight: 300%;
+ }
+ .bar2 p{
+    color: rgb(121, 167, 52) ;
+    font-size:1rem ;
+    font-weight: bolder;
+ }
+ .bar3{
+    width: 100%;
+    height: 60%;
+ }
+ .bar3 h1{
+    color:rgb(121, 167, 52) ;
+    font-size:1.7rem ;
+    font-weight: 300%;
+ }
+ .bar3 p{
+    color: rgb(121, 167, 52) ;
+    font-size:1rem ;
+    font-weight:bolder;
+ }
+ .bar4{
+    width: 100%;
+    height: 60%;
+ }
+ .bar4 h1{
+    color:rgb(121, 167, 52) ;
+    font-size:1.7rem ;
+    font-weight: 300%;
+ }
+ .bar4 p{
+    color: rgb(121, 167, 52);
+    font-size:1rem ;
+     font-weight: bolder;
+
+ }
+ .home {
+    font-size: 3rem;
+    color:rgb(58, 80, 26) ;
+    text-align: center;
+    margin-top: 5rem;
+ }
+ .head{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 80px;
+    margin-top: 6rem;
+    column-gap: 3rem;
+ }
+ .headbar{
+    height: 80%;
+    background-image: url(fruits/fruithome5.jpg);
+    background-size: cover;
+    color: white;
+    align-items: center;
+    animation-name: myanime;
+    animation-duration: 8s ;
+    animation-iteration-count: infinite;
+ }
+ @keyframes myanime{
+    0%{background-image: url(fruits/fruithome5.jpg);}
+    25%{background-image: url(fruits/fruithome3.jpg);}
+    50%{background-image: url(fruits/fruithome4.jpg);}
+    75%{background-image: url(fruits/fruit29.png);}
+    100%{background-image: url(fruits/fruithome5.jpg);}
+
+    
+ }
+ 
+.headbar h1{
+    font-size: 5rem;
+}
+.headbar p{
+    font-size: 1.2rem;
+}
+ .headbar1 img{
+    width:80% ;
+    height: 90%;
+    object-fit: contain;
+ }
+ .headbar1{
+    height:50%;
+ }
+ .headbar2 img{
+    width: 100%;
+ }
+ .headbar2{
+    height: 90%;
+    background-color:rgb(121, 167, 52);
+    color: white;
+    font-size: 1.4rem;
+    font-style: oblique;
+ }
+ .headbar2 p{
+   padding-left: 1rem;
+ }
+ .mainbar{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+ }
+ .main1{
+    width:130%;
+    padding: 15rem;
+    background-image: url(fruits/fruithome3.jpg);
+    background-size:cover;
+ }
+ .main1 h1{
+    font-size: 4rem;
+    color: white;
+ }
+ .mainbar p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(121, 167, 52);
+ }
+ .main2 h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(86, 116, 43)  ;
+    text-align: center;
+    margin: 2rem 2rem;
+ }
+ .form1{
+   width: 100%;
+   height: 41rem;
+   background-image: url(fruits/fruithome7.jpg);
+   background-size: cover;
+   align-items: center;
+   padding: 2rem 2rem;
+   margin-top: 1.5rem;
+ }
+ form{
+   width: 50%;
+   height: 60vh;
+   margin-top: 2rem;
+   margin-left: 30rem;
+   padding-top: 1.5rem;
+   background-color:rgba(58, 97, 57, 0.3);
+ display: flex;  
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  
+}
+.form1 h1{
+   color: white;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-size: 2.3rem;
+}
+.form1 p{
+   color: white;
+   font-size: 1.4rem;
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 2rem;
+}
+.form1 p a{
+   color: rgb(168, 218, 168);
+   font-size: 1rem;
+   text-decoration: none;
+   background-color: rgb(18, 71, 14);
+   padding: .5rem;
+   border-radius:1rem;
+}
+.form1 p a:hover{
+   transform: scale(1.2);
+}
+
+.info_content
+{
+   width: 80%;
+   height: 100px;
+   display: flex;
+   margin-bottom: 1em;
+   align-items: center;
+   
+   
+}
+
+.info_content label
+{
+   width: 17%;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+}
+
+
+.info_content input
+{
+   width: 60%;
+   height: 80%;
+   border-radius: 1em;
+   border: none;
+   padding-left: 20px;
+   outline: none;
+   background-color: white;
+   color:black;
+   font-size: 1rem;
+   font-weight: 100%;
+}
+.sign{
+   display: flex;
+   flex-direction: row;
+   row-gap: 2rem;
+   justify-content: space-around;
+   margin: 2rem 2rem;
+   margin-bottom: 4rem;
+}
+.sign .nav-box{
+   background-color: white;
+}
+.sign .nav-box h1{
+   font-size: 3rem;
+}
+.sign .nav-box p{
+   color: rgb(5, 54, 13);
+}
+.signin{
+   background-image: url(fruits/fruithome2.jpg);
+   background-size: cover;
+   width: 60%;
+   height: 30%;
+
+}
+.signin form {
+   width: 60%;
+   height: 50vh;
+   margin-bottom: 3rem;
+   margin-top: 2rem;
+   margin-left: 15rem;
+   padding-top: 1.5rem;
+   background-color:rgba(58, 97, 57, 0.3);
+ display: flex;  
+ align-items: center;
+   justify-content:space-between;
+   flex-direction: column;
+}
+.signin h1{
+   color: white;
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-size: 2.3rem;
+}
+.signin .info_content input
+{
+   width: 70%;
+   height: 40%;
+   border-radius: 1em;
+   border: none;
+   padding-left: 20px;
+   outline: none;
+   background-color: white;
+   color:black;
+   font-size: 1rem;
+   font-weight: 100%;
+   margin-left: 3rem;
+}
+.image img{
+   width:100%;
+   height: 20rem;
+   object-fit: cover;
+   background-size: cover;
+   margin-top: 1rem;
+}
+.image h1{
+   font-size: 4rem;
+   font-weight:bolder;
+   color: rgb(9, 77, 9);
+   margin-top: -2.5rem;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration:overline underline;
+}
+.images img{
+   width: 100%;
+   height: 10rem;
+   object-fit: contain;
+   margin-top: 2rem;
+}
+.contact{
+   width:100%;
+   height:100%;
+   background-color: rgb(243, 248, 242);
+   background-size: cover;
+   object-fit: fill;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+   row-gap: 1rem;
+   padding: 3rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.cont h1{
+   color:rgb(17, 66, 17);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   margin: 1rem;
+}
+.cont p{
+   color: rgb(7, 58, 7);
+   font-size: 1rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow'
+   , Arial, sans-serif;
+   font-weight:bolder;
+   margin-left: 3rem;
+   
+   
+}
+ 
+ @media (max-width:300px) {
+    body{
+        min-width: 200px;
+    }
+    .bar{
+        min-width: 200px;
+    }
+    .nav-bar{
+        min-width: 200px;
+    }
+    .head_bar{
+        min-width: 200px;
+    }
+    .foot{
+        min-width: 200px;
+    }
+    
+
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
