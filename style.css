@@ -171,8 +171,8 @@ background-color:rgb(121, 167, 52) ;
     background-color:white;
     display: grid;
 grid-template-columns: 150px 150px 150px 150px 150px 150px;
-    column-gap: 6em;
-    row-gap: 3px;
+    column-gap: 5em;
+    row-gap: 3.1px;
     justify-content:center ;
     padding: 50px 5px;
 }
