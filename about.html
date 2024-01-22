@@ -4,56 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d3c9fc67a3.js" crossorigin="anonymous"></script>
     <title>ABOUT US</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bar">
+    <header>
+        <div class="bar">
         <div class="logo">
-            <img src="fruits/fruitlogo.jpg" alt="">
-            <div>
-                <h1>Halie</h1>
-                <div class="log">
-                    <h1>&</h1>
+            <img src="fruitlogo.jpg" alt="">
+                <div>
+                    <h1>Halie&Ayeesha</h1>
                 </div>
-                <h1>Ayeesha</h1>
-            </div>
         </div>
-        <ul>
-            <li>
+        <div class="barr"><i class="fa fa-bars">
+        </i></div>
+        <ul id="ul-mobile">
+            <li> <i class="fa fa-home"></i>
             <a href="index.html">HOME</a>
             </li>
-            <li>
+            <li><i class="fa fa-history"></i>
                 <a href="about.html">ABOUT</a>
             </li>
-            <li>
+            <li> <i class="fa fa-phone"></i>
                 <a href="contact.html">CONTACT</a>
             </li>
-            <li>
+            <li> <i class="fa-solid fa-shopping-basket"></i>
                 <a href="order.html">ORDER</a>
             </li>
         </ul>
-        <input type="search" placeholder="search......">
-    </div>
+        <div class="searchcart">
+            <div class="fa fa-search" type="search" placeholder="search........">
+                </div>
+                <div class="fa fa-cart-shopping"></div>
+        </div>
+        </div>
+        </form>
+        </header>
 
     <main class="mainbar">
         <div class="main1">
          <h1>ABOUT US</h1>
         </div>
         <div class="main2">
-            <h1>OUR VISION</h1>
+            <h1 class="home">OUR VISION</h1>
             <p>You can tell the tree by the fruit it bears.
                  You see it through what the organization is
-                 delivering as far as a concrete program. If
+                 delivering as far as a concrete program. <br>If
                   the tree's fruit sours or grows brackish, then the
-                  time has come to chop it down
-                 - bury it and walk over it and plant new seeds.Labor
+                  time has come to chop <br>it down
+                 - bury it and walk over it and plant new seeds. <br>Labor 
                  is prior to, and independent of, capital. Capital is
-                 only the fruit of labor, and could never have existed
+                 only the fruit of <br> labor, and could never have existed <br>
                   if labor had not first existed. Labor is the superior of capital,
-                  and deserves much the higher consideration.Nothing
+                  and <br> deserves much the higher consideration. <br>Nothing
                   great is created suddenly, any more than a bunch of
-                  grapes or a fig. If you tell me that you desire a fig. I answer you that there must be time.
+                  grapes <br> or a fig. <br>If you tell me that you desire a fig. I answer you that there must be time. <br>
                   Let it first blossom, then bear fruit, then ripen.</p>
         </div>
     </main>
@@ -76,32 +83,9 @@
             vitality through your body (like a slight
            electric current) that shakes you 
            delightfully.</p>
-        
-               </div>
-               <div class="bar0">
-                   <div class="bar2"><img src="fruits/fruit24.jpg" alt="fruit">
-                       <h1>A fruit is a vegetable with looks and money.</h1>
-                       <p>Plus, if you let fruit rot, it turns into wine
-                 , something brussel sprouts never do.</p>
-                   </div>
-                   <div class="bar3"><img src="fruits/fruit27.jpg" alt="fruit">
-                       <h1>A fruit is a vegetable with looks and money.</h1>
-                   <p>I love fresh fruit and vegetables. I'm not a strict 
-                       dieter. I don't think that anything in life should 
-                       be so regimented that you're not having fun or can't enjoy like everybody else. Just know 
-                       that fresh food is always going to be better for you.</p>
-                   </div>
-                   <div class="bar4"><img src="fruits/fruit25.jpg" alt="fruit">
-                       <h1>A fruit is a vegetable with looks and money.</h1>
-                   <p>Just as you would not neglect seeds that you planted 
-                       with hope that they will bear vegetables and fruits 
-                       and flowers, so must 
-                       you attend to nourish the garden of your becoming</p>
-                   </div>
-           </div>
     <footer class="foot">
         <div class="foot-bar">
-            <h1>Halie&Ayeesha Fruit</h1>
+            <h1>FRUIT WEBSITE</h1>
         </div>
         <div class="foot-box">
             <div>
@@ -115,18 +99,18 @@
                 <div>
                     <h2>Social Media</h2>
                     <p>
-                        <a href="Facebook.com">Facebook</a>
-                        <a href="Twitter.com">Twitter</a>
-                        <a href="Instagram.com">Instagram</a>
-                        <a href="Telegram.com">Telegram</a>
+                        <a href="#Facebook">Facebook</a>
+                        <a href="#Twitter">Twitter</a>
+                        <a href="#Instagram">Instagram</a>
+                        <a href="#Telegram">Telegram</a>
                     </p>
                 </div>
                 <div>
                     <h2>Resources</h2>
                     <p>
-                        <a href="signin.html">Login</a>
-                        <a href="signup.html">Sign Up</a>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="#Login">Login</a>
+                        <a href="#Sign Up">Sign Up</a>
+                        <a href="#Contact Us">Contact Us</a>
                         <a href="#Advertise">Advertise</a>
                         <a href="#Privacy Policy">Privacy Policy</a>
                         <a href="#DMCA Takedown">DMCA Takedown</a>
@@ -137,5 +121,20 @@
             <p>Copyright&copy;2023</p> 
         </div>  
     </footer>
+    <script>
+
+        let bars = document.querySelector(".bar");
+            let ul = document.querySelector("#ul-mobile");
+            let aysha = true;
+            bars.addEventListener("click",()=>{
+            if(!!aysha){
+                ul.style.height="145px";
+                aysha = false;
+            }else{
+                ul.style.height="0px";
+                aysha = true;
+            }
+            });
+            </script>
 </body>
 </html>
